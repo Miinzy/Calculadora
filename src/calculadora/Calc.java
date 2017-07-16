@@ -47,21 +47,21 @@ public class Calc extends javax.swing.JFrame {
 
         jLabel3.setText("Resultado:");
         jLabel3.setToolTipText("");
-
+        //botão para a função soma
         jButton1.setText("+");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
-
+        //botão para a função subtração
         jButton2.setText("-");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
             }
         });
-
+        //botão para a função multiplicação
         jButton3.setText("*");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
